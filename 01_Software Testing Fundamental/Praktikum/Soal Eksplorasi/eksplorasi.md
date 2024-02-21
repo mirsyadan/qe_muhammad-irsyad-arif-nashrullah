@@ -1,0 +1,4 @@
+Soal 1: Tulis kesimpulan dari hasil pengujian berikut!
+
+Jawaban:
+Berdasarkan dari hasil screenshoot gambar pengujian soal eksplorasi, saya telah mendapat beberapa informasi yang dapat disimpulkan. Yaitu yang pertama untuk durasi pada saat proses pengujian sendiri telah dilakukan selama 3 menit dengan total 50 Virtual Users (VUs) yang dilakukan sebanyak 7014 kali dengan status berhasil tanpa adanya sebuah iterasi yang terputus. Kedua yaitu semua API request juga menghasilkan sebuah respon berhasil dengan status 200 OK. Ketiga yaitu tidak ada satupun API request yang mengalami kegagalan selama proses pengujian dilakukan. Lalu secara keseluruhan dari hasil pengujian yang menunjukkan kinerja API dalam hal respon dan kecepatan menandakan cukup baik, pengujian ini menunjukkan bahwa aplikasi mampu menangani total pengguna sebanyak hingga 50 Virtual User (VUs).
