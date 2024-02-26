@@ -1,0 +1,7 @@
+# 03_Version Control (Git)
+
+- Versioning itu penting, versioning ialah sebuah aktivitas untuk mengatur versi dari suatu kode program. Ada 3 tools yang dapat untuk kita manfaatkan dalam mengelolah versi dari sebuah kode program, 3 tools tersebut diantaranya yaitu ada version control system (VCS), source code manager (SCM), dan revision control system (RCS). Dari ketiga tools tersebut ada salah satu tools yang dapat kita manfaatkan yaitu adalah version control system (VCS).
+
+- Sejarah version control system (VCS), version control system hanya dapat digunakan oleh satu pengguna atau single user (SCCS-1972 di platform unix only, RCS-1982 cross platform dengan berfokus pada file dalam berbentuk text only), setelah itu berevolusi menjadi terpusat atau centralized (CVS-1986 file focus, Perforce-1995, Subversion-2000-track directory structure, Microsoft team foundation server-2005), terakhir yaitu distributed (Git-2005, Mercurial-2005, Bazaar-2005).
+
+- Git ialah salah satu version control system terpopuler yang bisa kita gunakan untuk mengembangkan sebuah software secara bersama-sama. Git sendiri terdistribusi bukan tersentralisasi, hal ini dikarenakan banyak yang salah kaprah tentang hal tersebut. Git dibuat oleh linus torvalds pada tahun 2005 dan linus torvalds ialah seseorang yang mengembangkan sistem operasi pada linux kernel.
