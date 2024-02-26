@@ -1,5 +1,4 @@
 Soal 1:
-
 - Dengan project terserah kalian, praktikkan salah satu workflow serderhana dan buktikan dengan Screenshoot. github flow/gitflow/trunkbase.
 - akan ada foto terkait flow yang disebutkan.
 - lakukan management konflik pada github.
