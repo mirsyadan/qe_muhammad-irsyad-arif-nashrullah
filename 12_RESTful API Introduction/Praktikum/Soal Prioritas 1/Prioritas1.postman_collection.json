@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "0d5c46e7-3aa0-423e-a0e1-6c239515f098",
+		"name": "12_RESTful API Introduction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33042018"
+	},
+	"item": [
+		{
+			"name": "Soal Prioritas 1",
+			"item": [
+				{
+					"name": "Mendapatkan semua data post.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TUGAS}}/posts",
+							"host": [
+								"{{TUGAS}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Membuat data post baru.",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 11,\r\n    \"title\": \"foo\",\r\n    \"body\": \"bar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TUGAS}}/posts",
+							"host": [
+								"{{TUGAS}}"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mendapatkan data post berdasarkan ID.",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{TUGAS}}/posts/1",
+							"host": [
+								"{{TUGAS}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mengubah data post berdasarkan ID.",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 1,\r\n    \"id\": 1,\r\n    \"title\": \"foo\",\r\n    \"body\": \"bar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{TUGAS}}/posts/1",
+							"host": [
+								"{{TUGAS}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Menghapus data post berdasarkan ID.",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{TUGAS}}/posts/1",
+							"host": [
+								"{{TUGAS}}"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "TUGAS",
+			"value": "https://jsonplaceholder.typicode.com",
+			"type": "string"
+		}
+	]
+}
