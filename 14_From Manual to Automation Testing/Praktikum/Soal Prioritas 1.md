@@ -1,0 +1,44 @@
+Soal 1:
+Jelaskan jenis-jenis dari performance testing (minimal: 3).
+
+Jawaban:
+- Load Testing, merupakan bagian dari teknik pengujian performance dimana tujuan pengujian ini adalah untuk menentukan target load dari sebuah sistem. Pengujian ini diperlukan saat adanya sebuah event musiman yang menyebabkan lalu lintas (traffic) sistem bertambah seiring berjalannya waktu. Contohnya, pada sebuah aplikasi penjualan tiket yang traffic-nya perlahan akan bertambah saat sebuah event mulai mendekati. Misalnya acara tahun baru yang terjadi di tanggal 1 Januari, mungkin jauh-jauh hari seiring mendekatnya tahun baru, traffic dari aplikasi penjualan tiket juga akan bertambah sehingga pengujian ini diperlukan untuk mengetahui ketahanan sistem dengan menaikkan load perlahan-lahan pada setiap skenario-nya, kemudian menganalisis penggunaan resource-nya apakah ada perbedaan yang signifikan atau tidak. Menguji kinerja aplikasi dengan peningkatan beban kerja dalam waktu tertentu. Beban kerja ini bisa berupa pengguna bersamaan, jumlah transaksi, perilaku aplikasi, dan lain-lain. Tujuannya adalah untuk mengamati waktu respon, tingkat throughput, penggunaan sumber daya, dan lain-lain. Dengan mengidentifikasi hambatan kinerja pada atribut-atribut ini, kita dapat memperbaikinya sebelum meluncurkan aplikasi untuk memastikan pengalaman pengguna yang lebih baik. Load testing juga membantu kita memahami berapa banyak pengguna bersamaan yang dapat ditangani oleh aplikasi pada satu waktu.
+
+- Stress Testing, merupakan bagian dari teknik pengujian performance yang dijalankan untuk mengetahui limit atau batas kemampuan dari sebuah sistem dengan cara membanjiri lalu lintas (traffic) sistem sampai sistem tersebut crash. Salah satu alasan utama dilakukannya pengujian ini adalah untuk menghindari terjadinya kegagalan sistem (system down). Contoh kasus yang paling umum adalah saat sebuah aplikasi e-commerce mengadakan promo besar-besaran, sehingga banyak user yang mengakses aplikasi tersebut di jam tertentu (misalnya ada waktu tertentu untuk menggunakan promo) pada waktu yang bersamaan. Setelah dilakukannya pengujian ini, diharapkan tim pengembang dapat membangun sebuah sistem yang lebih kebal terhadap kasus traffic yang dibanjiri oleh banyak user. Menguji kinerja aplikasi di luar parameter kerja normal. Artinya, aplikasi diberi beban kerja yang lebih tinggi dari yang dapat ditangani, seperti lalu lintas pengguna atau data yang ekstrim. Tujuannya adalah untuk mengetahui stabilitas aplikasi.
+
+- Endurance Testing, merupakan bagian dari teknik pengujian performance yang dijalankan untuk menganalisis behavior atau performa sistem dengan load yang normal namun dalam jangka waktu yang panjang. Pengujian ini dilakukan untuk menghindari terjadinya kebocoran memori (memory leak). Di beberapa instansi, endurance testing tidak menjadi bagian dari tanggung jawab seorang Software Tester/QA. Pengujian ini biasanya dilakukan oleh seorang performance engineer, atau role yang lebih ahli di bidang ini. Menguji kinerja aplikasi saat beban kerja meningkat secara tiba-tiba dan berulang. Beban kerja ini melebihi ekspektasi normal untuk waktu yang singkat. Spike testing adalah jenis stress testing yang digunakan untuk menguji reaksi aplikasi terhadap lonjakan beban yang tidak terduga.
+
+- Spike Testing, merupakan bagian dari teknik pengujian performance yang dijalankan untuk mengetahui jumlah load system apakah sesuai dengan ekspektasi. Spike dan load testing memiliki tujuan yang mirip. Bedanya dengan load testing adalah pengujian ini dilakukan dengan mengirim load yang banyak dalam waktu bersamaan. Contohnya adalah saat mengakses website hasil ujian SBMPTN. Dengan pengujian ini, kita dapat mengetahui user atau load maksimum yang dapat mengakses website tersebut pada waktu yang bersamaan.
+
+- Endurance testing, menguji kinerja aplikasi selama periode yang lama dengan beban kerja yang normal dan tetap. Dengan kata lain, mengetahui seberapa lama aplikasi dapat bertahan dengan beban kerja yang konstan untuk memberikan keberlanjutan jangka panjang. Selama pengujian ini, tim pengujian memantau KPI seperti kebocoran memori, penggunaan memori, kekurangan memori, dan lain-lain. Endurance testing juga menganalisis waktu respon dan throughput setelah penggunaan yang lama untuk menampilkan apakah metrik ini konsisten atau tidak.
+
+- Scalability testing, menguji kinerja aplikasi dengan meningkatkan beban kerja secara bertahap. Tujuannya adalah untuk menentukan efektivitas aplikasi dalam "meningkatkan skala" untuk mendukung peningkatan beban pengguna. Scalability testing membantu kita memahami batas kapasitas aplikasi dan sumber daya yang dibutuhkan untuk menangani beban yang lebih besar.
+
+- Volume testing, menguji kinerja aplikasi dengan menambahkan volume data yang besar dalam basis data. Tujuannya adalah untuk mengetahui dampak volume data terhadap kinerja aplikasi, seperti waktu respon, throughput, dan penggunaan sumber daya.
+
+Soal 2:
+Sebutkan dan jelaskan tools yang dapat digunakan untuk melakukan performance testing (minimal: 3).
+
+Jawaban:
+- Apache jMeter, merupakan sebuah testing tools atau aplikasi yang sangat populer karena bersifat open source dan sudah berbasis Java yang dapat digunakan untuk performance test dan menganalisis serta mengukur kinerja dari berbagai perangkat lunak dengan mencakup layanan termasuk jaringan dan server. Tools yang satu ini memiliki banyak kelebihan, bagi seorang QA Engineer jMeter sebagian besar digunakan bisa untuk melakukan dan menjalankan load/stress testing pada berbagai jenis aplikasi layanan atau web application, FTP application dan database server test. Tools jMeter bisa dijalankan dengan 2 cara yaitu dengan GUI atau non-GUI (Command line). Namun jika untuk pemula sebaiknya memakai cara dengan menggunakan GUI karena mudah dan bisa melakukan scripting tertentu. Selain bersifat open source dan sudah berbasis Java, apache JMeter juga sangat populer karena cukup mudah digunakan, tersedia banyak jenis listener bebas memilih listener yang saya butuhkan, dan support beberapa protokol seperti HTTP, HTTPS, XML, SOAP, dan lain sebagainya.
+
+- Smartmeter.io, merupakan performance testing tools dengan fitur tingkat perusahaan yang dapat melakukan pengujian mendalam dengan beban berat. Tools ini melakukan pengujian beban dengan pengguna virtual dari lokasi yang berbeda dan memantau lingkungan pengujian untuk mengurangi waktu respon. Smartmeter.io menawarkan empat level paket berbayar dengan dua bulan gratis dengan pembelian untuk pengguna level Personal, Pro, Pro+ dan Corporate.
+
+- WebLOAD, merupakan sebuah performance testing tools untuk aplikasi mobile dan web yang dapat membuat serta menjalankan pengujian untuk mobile, cloud, dan proses sisi server. Tools ini dapat berintegrasi dengan sistem manajemen konten, aplikasi perusahaan, database atau server web untuk memberikan pengujian langsung dengan akurat kepada pengguna. Saat awal pemakaian pengguna mendapatkan hak akses versi trial atau gratis untuk digunakan dalam menguji perangkat lunak hingga 50 pengguna virtual terutama pada sisi load test.
+
+- Silk Performer menguji kinerja perangkat lunak untuk aplikasi web, seluler, dan perusahaan. Tools ini memberi pengguna metode pengujian yang efisien melalui penggunaan kembali skrip pengujian dengan mendeteksi dan mengisolasi masalah kinerja untuk minimalisasi dan resolusi. Dengan sistem cloud terintegrasi Silk Performer, pengembang dapat melakukan pengujian perangkat keras dan pengaturan untuk skalaa atau pengukuran tegangan.
+
+Sumber referensi:
+- Aksaragama. (n.d.). 10 Performance Testing Tools yang Bisa Anda Gunakan. Aksaragama. https://aksaragama.com/10-performance-testing-tools/
+
+- Blogs, D. i. (2021). Catat! Inilah 3 Best Performance Testing Tools untuk 2021! Medium. https://medium.com/@dojobox.id/catat-inilah-3-best-performance-testing-tools-untuk-2021-3ee3a70b8fae
+
+- Lumbantobing, H. (2021). Performance Testing : Pengertian, Fokus, Jenis, dan Contoh. Medium. https://hariatylumbantobing.medium.com/performance-testing-pengertian-fokus-jenis-dan-contoh-7f1aaebbff8f
+
+- Puri, D. (2021). Mengenal Apa itu Performance Testing Beserta dengan Toolsnya. BINUS Higher Education. https://sis.binus.ac.id/2021/09/15/mengenal-apa-itu-performance-testing-beserta-dengan-toolsnya/
+
+- PuTI. (2023). Rekomendasi 4 Tools untuk Melakukan Automation Testing. Pusat Teknologi Informasi Telkom University. https://it.telkomuniversity.ac.id/automation-testing-adalah/
+
+- Icreativelabs. (2024). Apa itu Performance Testing? Dan Apa Saja Toolsnya? Icreativelabs. https://icreativelabs.com/blog/apa-itu-performance-testing-dan-apa-saja-toolsnya
+
+- Video dan materi power point agile testing one alterra academy serta live session dengan mentor.
