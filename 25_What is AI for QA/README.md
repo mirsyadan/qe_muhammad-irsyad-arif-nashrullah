@@ -1,5 +1,7 @@
 # 25_What is AI for QA
 
--
--
--
+- Ada beberapa problem saat dalam proses software quality assurance, salah satu contoh problemnya yaitu seperti pada saat pembuatan test case dan test scenario yang masih dilakukan secara manual sehingga terkadang pembuatan test case dan test scenario membutuhkan waktu yang cukup lama apalagi untuk proyek software yang cukup besar. Lalu pengecekan kode program yang dilakukan secara manual sehingga membutuhkan waktu yang lama untuk mencari bug/defect pada sebuah kode program.
+
+- Keuntungan dari AI untuk software quality assurance yaitu untuk meningkatkan efisiensi dan akurasi, meningkatkan kualitas software, mendeteksi bug/defect lebih awal, dan mengurangi proses secara manual/repetitif. Kegunaan AI untuk software quality assurance yaitu sebagai test automation, defect prediction, code analysis, dan debugging. Etika dalam penggunaan atau pengembangan AI yaitu meliputi keadilan, transparansi privasi, dan berfokus pada manusia.
+
+- Tantangan AI untuk software quality assurance yaitu kualitas data dan potensi bias, masalah keamanan dan privasi, kurangnya pengawasan, dan masalah transparansi. Contoh test automation tools yaitu ada Testim, Applitools, Mabl, Functionize. Contoh code analysis tools yaitu seperti CodeSonar dan Snyk.
