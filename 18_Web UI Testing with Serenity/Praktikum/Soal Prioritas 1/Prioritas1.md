@@ -4,4 +4,4 @@ Soal 1:
     - Pengujian menggunakan Serenity.
 
 Jawaban:
-- Jawaban berada di link berikut: [GoogleDocs](https://docs.google.com/document/d/1iWxc2yW378Sa-D-A-gfhXhvE7-iONsQOoluLiNqx-0E/edit?usp=sharing)
+- Jawaban berada di link berikut: [GoogleDocs](https://docs.google.com/document/d/1iWxc2yW378Sa-D-A-gfhXhvE7-iONsQOoluLiNqx-0E/edit?usp=sharing) dan [KodeProgram](https://github.com/mirsyadan/web-serenity-starter/tree/main)
