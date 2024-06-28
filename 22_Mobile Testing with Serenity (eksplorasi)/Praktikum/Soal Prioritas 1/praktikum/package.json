@@ -1,0 +1,27 @@
+{
+  "name": "Tuprak-Mobile-Testing",
+  "version": "1.0.0",
+  "description": "Mobile testing starter template using Appium and CucumberJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js -f json:test/report/cucumber_report.json",
+    "report": "node report.js"
+  },
+  "author": "Nadir Basalamah",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "webdriverio": "^8.11.2"
+  },
+  "dependencies": {
+    "20": "^3.1.9",
+    "appium-webdriver": "^1.0.3",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.19.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
